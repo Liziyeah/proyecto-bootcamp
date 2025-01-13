@@ -4,6 +4,7 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="index.css" />
+
 		<link
 			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
 			rel="stylesheet"
@@ -25,7 +26,7 @@
 	</head>
 	<body>
 		<header>
-			<img class="logo" src="" alt="Logo del restaurante" />
+			<img class="logo" src="../assets/logo-head.svg" alt="Logo Restaurante La Chalupa" />
 			<nav class="navbar">
 				<ul class="nav-links">
 					<li>1800-55-123</li>
@@ -38,7 +39,7 @@
 			</nav>
 		</header>
 		<!-- Carrusel inicio -->
-		<div id="carrusel" class="carousel-slide" data-bs-ride="carousel">
+		<div id="carrusel" class="carousel-slide" data-bs-ride="carousel" data-bs-interval="5000">
 			<div class="carousel-inner">
 				<div class="carousel-item active">
 					<img src="../assets/Comidita.jpg" class="d-block w-100" alt="..." />
@@ -51,5 +52,59 @@
 				</div>
 			</div>
 		</div>
+		<!-- Contenedor de imágenes -->
+		<section>
+			<div class="container my-4">
+				<div class="row">
+					<div class="col-md-3 col-sm-6 mb-4">
+						<div class="image-container">
+							<div class="overlay"></div>
+							<img src="../assets/Tacosc4.jpg" class="img-fluid rounded shadow" alt="Tacos" />
+							<h1>Tacos</h1>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 mb-4">
+						<div class="image-container">
+							<div class="overlay"></div>
+							<img src="../assets/Quesadillasc3.png" class="img-fluid rounded shadow" alt="Quesadillas" />
+							<h1>Quesadillas</h1>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 mb-4">
+						<div class="image-container">
+							<div class="overlay"></div>
+							<img src="../assets/Flautasc2.png" class="img-fluid rounded shadow" alt="Flautas" />
+							<h1>Flautas</h1>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 mb-4">
+						<div class="image-container">
+							<div class="overlay"></div>
+							<img src="../assets/Burritosc1.jpg" class="img-fluid rounded shadow" alt="Burritos" />
+							<h1>Burritos</h1>
+						</div>
+					</div>
+				</div>
+				<div class="text-center">
+					<button class="btn"><a href="menu.html">Ver menú</a></button>
+				</div>
+			</div>
+		</section>
+		<section>
+			<h1>Galería</h1>
+			<div class="galery-container">
+				<div class="card-wrapper">
+					<ul>
+						<li>
+							<img src="../assets/delicious-tacos-wooden-board-high-angle.png" alt="" />
+							<button class="galery-button"
+								><i class="bx bx-right-arrow-alt bx-tada bx-flip-horizontal" bx-lg></i
+							></button>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<footer></footer>
 	</body>
 </html>
