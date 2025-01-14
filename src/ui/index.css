@@ -20,14 +20,13 @@ header {
 	background-color: rgba(59, 31, 108, 1);
 }
 
-body {
-	background-color: rgba(32, 25, 19, 1);
-}
-
 .nav-links {
 	list-style: none;
 }
 
+body {
+	background-color: #e0a600;
+}
 .logo {
 	width: auto;
 	height: auto;
@@ -113,4 +112,65 @@ body {
 
 .btn button:hover {
 	background-color: #e0a600;
+}
+
+.galery-container {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-gap: 16px;
+	padding: 20px 0;
+}
+
+.gallery-img {
+	width: 100%;
+	height: auto;
+	border-radius: 10px;
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+	object-fit: cover;
+}
+
+.gallery-img:hover {
+	transform: scale(1.05);
+	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Tamaños personalizados */
+.gallery-img.large {
+	grid-row: span 2;
+	grid-column: span 2;
+}
+
+.gallery-img.medium {
+	grid-row: span 2;
+	grid-column: span 1;
+}
+
+.gallery-img.small {
+	grid-row: span 1;
+	grid-column: span 1;
+}
+
+footer {
+	background-color: rgba(32, 25, 19, 1);
+	color: #f0f0f0;
+}
+
+footer h5 {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+}
+
+footer p {
+	margin: 0;
+	font-size: 14px;
+	line-height: 1.8;
+}
+
+footer a {
+	color: #f0b818;
+	transition: color 0.3s ease;
+}
+
+footer a:hover {
+	color: #e0a600;
 }

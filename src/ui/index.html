@@ -91,20 +91,80 @@
 			</div>
 		</section>
 		<section>
-			<h1>Galería</h1>
-			<div class="galery-container">
-				<div class="card-wrapper">
-					<ul>
-						<li>
-							<img src="../assets/delicious-tacos-wooden-board-high-angle.png" alt="" />
-							<button class="galery-button"
-								><i class="bx bx-right-arrow-alt bx-tada bx-flip-horizontal" bx-lg></i
-							></button>
-						</li>
-					</ul>
+			<h1 class="text-center text-white py-4">Galería</h1>
+			<div class="container">
+				<div class="row g-3">
+					<div class="col-md-4 col-sm-6">
+						<div class="card">
+							<img src="../assets/Property 1=Frame 5.png" class="card-img-top" alt="Imagen 1" />
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6">
+						<div class="card">
+							<img src="../assets/Property 1=Frame 6.png" class="card-img-top" alt="Imagen 2" />
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6">
+						<div class="card">
+							<img src="../assets/Property 1=Frame 7.png" class="card-img-top" alt="Imagen 3" />
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6">
+						<div class="card">
+							<img src="../assets/Property 1=Frame 8.png" class="card-img-top" alt="Imagen 4" />
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6">
+						<div class="card">
+							<img src="../assets/Property 1=Frame 9.png" class="card-img-top" alt="Imagen 5" />
+						</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</section>
-		<footer><div></div></footer>
+		<footer class="bg-dark text-white py-5">
+			<div class="container">
+				<div class="row">
+					<!-- Formulario de Suscripción -->
+					<div class="col-md-6 mb-4">
+						<h5>¡Sé el primero en enterarte de nuestras novedades y descuentos!</h5>
+						<form class="mt-3">
+							<div class="mb-3">
+								<label for="email" class="form-label">Correo electrónico</label>
+								<input type="email" class="form-control" id="email" placeholder="Ingresa tu correo" required />
+							</div>
+							<div class="mb-3">
+								<label for="password" class="form-label">Contraseña</label>
+								<input type="password" class="form-control" id="password" placeholder="Crea una contraseña" required />
+							</div>
+							<button type="submit" class="btn btn-warning text-white">Enviar</button>
+						</form>
+					</div>
+
+					<!-- Información del Restaurante -->
+					<div class="col-md-6">
+						<h5>Información de contacto</h5>
+						<p>
+							<strong>Restaurante La Chalupa</strong><br />
+							Dirección: Calle Falsa 123, Ciudad de México<br />
+							Teléfono: 1800-55-123<br />
+							Correo: contacto@lachalupa.com
+						</p>
+						<div class="mt-3">
+							<a href="https://www.facebook.com" target="_blank" class="text-white me-3" style="font-size: 1.5rem">
+								<i class="bi bi-facebook"></i>
+							</a>
+							<a href="https://www.instagram.com" target="_blank" class="text-white me-3" style="font-size: 1.5rem">
+								<i class="bi bi-instagram"></i>
+							</a>
+							<a href="https://www.twitter.com" target="_blank" class="text-white" style="font-size: 1.5rem">
+								<i class="bi bi-twitter"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
 	</body>
 </html>
