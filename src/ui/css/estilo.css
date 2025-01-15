@@ -38,14 +38,17 @@ h3{
     }*/
 
 .btn-VER{
-    border: 2px solid black;
+    border: 3px solid black;
     border-radius: 100px;
-    padding: 0px 40px 0px 40px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
+    width: 80px;
     background-color: transparent;
     color: black;
     font-family: GothamBook; src: url(../fonts/GothamBook);
     font-size: 16px;
+    text-align: center;
+    vertical-align: bottom;
     cursor: pointer;
 }
 
@@ -59,6 +62,25 @@ h3{
     color: #3C1E6E;
     }
 
+.especialidades{
+    border-color: #ED1850;
+    color: white;
+    }
+.especialidades:hover{
+    border-color: #ED1850;
+    background-color: white;
+    color: #3C1E6E;
+    }
+
+.bebidas{
+    border-color: #FF9614;
+    color: white;
+    }
+.bebidas:hover{
+    border-color: #FF9614;
+    background-color: white;
+    color: #3C1E6E;
+    }
 
 body{
     color: white;
@@ -76,14 +98,16 @@ body{
     background-image: url(../images/Head-comp.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position-y: -3px;
     height: 100%;
     width: auto;
 	/*background-position: center;*/
     overflow: hidden;
     font-family: GothamBook; src: url(../fonts/GothamBook);
     padding-top: 10px;
+    padding-bottom: 10px;
     padding-right: 15px;
-    padding-left: 15px;
+    padding-left: 5px;
     }
 
 .head-navdiv {
@@ -108,15 +132,15 @@ body{
     position: relative;
     align-items: center;
     padding: 10px;
-}
+    }
 
-.caja1{
+.caja-entradas{
     background: #3C1E6E;
     border: 3px solid #00FEC8;
     border-radius: 15px;
     box-shadow: 0 4px 5px #0000007a;
     width: 250px;
-    max-height: 350px;
+    height: 340px;
     overflow: hidden;
     position: relative;
     text-align: center;
@@ -124,10 +148,47 @@ body{
     -webkit-transition: 1s linear;
     transition: 0.3s linear;
     }
-.caja1:hover{
-    -webkit-box-shadow: 10px 10px 14px 2px rgba(0,0,0,0.47);
-    box-shadow: 10px 10px 14px 2px rgba(0,0,0,0.75);
-    /*transform: translateY(-10px);*/
+.caja-entradas:hover{
+    -webkit-box-shadow: 10px 10px 14px 2px rgba(0,0,0,0.50);
+    box-shadow: 10px 10px 14px 2px rgba(0,0,0,0.50);
+    }
+
+    .caja-especial{
+        background: #3C1E6E;
+        border: 3px solid #ED1850;
+        border-radius: 15px;
+        box-shadow: 0 4px 5px #0000007a;
+        width: 250px;
+        height: 340px;
+        overflow: hidden;
+        position: relative;
+        text-align: center;
+        transition: transform 0.2s, box-shadow 0.2s;
+        -webkit-transition: 1s linear;
+        transition: 0.3s linear;
+        }
+    .caja-especial:hover{
+        -webkit-box-shadow: 10px 10px 14px 2px rgba(0,0,0,0.50);
+        box-shadow: 10px 10px 14px 2px rgba(0,0,0,0.50);
+        }
+
+.caja-bebidas{
+    background: #3C1E6E;
+    border: 3px solid #FF9614;
+    border-radius: 15px;
+    box-shadow: 0 4px 5px #0000007a;
+    width: 250px;
+    height: 340px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+    -webkit-transition: 1s linear;
+    transition: 0.3s linear;
+    }
+.caja-bebidas:hover{
+    -webkit-box-shadow: 10px 10px 14px 2px rgba(0,0,0,0.50);
+    box-shadow: 10px 10px 14px 2px rgba(0,0,0,0.50);
     }
 
 .scale:hover {
@@ -138,25 +199,25 @@ li{
     list-style: none;
     display: inline-block;
     padding-top: 5px;
-}
+    }
 
 li a{
     color: white; font-size: 18px; font-weight: bold; margin-right: 25px;
-}
+    }
 
 li a:hover{
     color: #FDBE0D; font-size: 18px; font-weight: bold; margin-right: 25px;
         font-size: 18px;
-}
+    }
 
-button{
+.carrito{
     background-color: white;
-    margin-left: 10px;
+    outline: none;
+    border: none;
     border-radius: 100px;
-    padding: 10px;
     width: 35px; height: 35px;
-}
-
-button a{
-    color: black; font-weight: bold; font-size: 15px;
-}
+    }
+.carrito:hover{
+    background-color: #FDBE0D;
+    color: #3C1E6E;
+    }
