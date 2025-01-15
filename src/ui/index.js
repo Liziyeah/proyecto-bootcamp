@@ -18,3 +18,7 @@ window.addEventListener('click', (e) => {
 		modal.style.display = 'none';
 	}
 });
+
+const saveButton = document.addEventListener('#btnsave');
+
+saveButton.addEventListener('click');

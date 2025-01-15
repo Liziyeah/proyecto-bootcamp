@@ -1,0 +1,199 @@
+* {
+	text-decoration: none;
+}
+
+h1 {
+	font-family: Cucciolo;
+	src: url(../fonts/cucciolo-webfont.woff2);
+	font-size: 6.5vw;
+	font-weight: lighter;
+	letter-spacing: 3px;
+}
+
+h2 {
+	font-family: Cucciolo;
+	src: url(../fonts/cucciolo-webfont.woff2);
+	font-variant-ligatures: discretionary-ligatures;
+	font-size: 3.2vw;
+	font-weight: lighter;
+	letter-spacing: 1.4px;
+	line-height: 100%;
+	position: relative;
+	top: -50px;
+}
+
+h3 {
+	font-family: Cucciolo;
+	src: url(../fonts/cucciolo-webfont.woff2);
+	font-variant-ligatures: discretionary-ligatures;
+	font-size: 2.5vw;
+	font-weight: lighter;
+	letter-spacing: 1.5px;
+	line-height: 100%;
+}
+
+/*.texto{
+        padding: 1px;
+        text-align: center;
+        overflow: hidden;
+        position: relative;
+    }*/
+
+.btn-VER {
+	border: 2px solid black;
+	border-radius: 100px;
+	padding: 0px 40px 0px 40px;
+	margin: 0px;
+	background-color: transparent;
+	color: black;
+	font-family: GothamBook;
+	src: url(../fonts/GothamBook);
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.entradas {
+	border-color: #00fec8;
+	color: white;
+}
+.entradas:hover {
+	border-color: #00fec8;
+	background-color: white;
+	color: #3c1e6e;
+}
+
+body {
+	color: white;
+	margin: 0;
+	font-family: Rubik;
+	src: url(../fonts/Rubik-Regular.ttf);
+	line-height: 1.6;
+	/*display: flex;*/
+	justify-content: center;
+	align-items: center;
+	background-image: url(/images/Forest_Texture_sm.jpg);
+	background-color: #555555;
+}
+
+li,
+a {
+	font-family: 'Poppins', serif;
+	font-size: 16px;
+	color: white;
+	text-decoration: none;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 5%;
+	background-color: rgba(59, 31, 108, 1);
+}
+
+.nav-links {
+	list-style: none;
+}
+
+body {
+	background-color: rgba(32, 25, 19, 1) !important;
+}
+.logo {
+	width: auto;
+	height: auto;
+	cursor: pointer;
+}
+
+.nav-links li {
+	display: inline-block;
+	padding: 0 20px;
+}
+
+.nav-links li a {
+	transition: all 0.3s ease 0s;
+	text-decoration: none;
+	color: white;
+}
+
+.nav-links li a:hover {
+	color: rgba(240, 184, 20, 1);
+}
+
+.nav-links li a img {
+	width: 25px;
+	height: auto;
+}
+
+.cartas {
+	display: flex;
+	gap: 60px;
+	flex-wrap: wrap;
+	justify-content: center;
+	text-align: center;
+	line-height: 60%;
+	overflow: hidden;
+	position: relative;
+	align-items: center;
+	padding: 10px;
+}
+
+.caja1 {
+	background: #3c1e6e;
+	border: 3px solid #00fec8;
+	border-radius: 15px;
+	box-shadow: 0 4px 5px #0000007a;
+	width: 250px;
+	max-height: 350px;
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+	transition: transform 0.2s, box-shadow 0.2s;
+	-webkit-transition: 1s linear;
+	transition: 0.3s linear;
+}
+.caja1:hover {
+	-webkit-box-shadow: 10px 10px 14px 2px rgba(0, 0, 0, 0.47);
+	box-shadow: 10px 10px 14px 2px rgba(0, 0, 0, 0.75);
+	/*transform: translateY(-10px);*/
+}
+
+.scale:hover {
+	transform: scale(1.04);
+	animation: scale 0.15s ease-in;
+}
+
+li {
+	list-style: none;
+	display: inline-block;
+	padding-top: 5px;
+}
+
+li a {
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+	margin-right: 25px;
+}
+
+li a:hover {
+	color: #fdbe0d;
+	font-size: 18px;
+	font-weight: bold;
+	margin-right: 25px;
+	font-size: 18px;
+}
+
+button {
+	background-color: white;
+	margin-left: 10px;
+	border-radius: 100px;
+	padding: 10px;
+	width: 35px;
+	height: 35px;
+}
+
+button a {
+	color: black;
+	font-weight: bold;
+	font-size: 15px;
+}
