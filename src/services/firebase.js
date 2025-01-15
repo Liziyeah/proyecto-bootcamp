@@ -44,9 +44,15 @@ const errorMessage = () => {
 	});
 };
 
-const saveButton = document.getElementById('#btnsave');
+document.addEventListener('DOMContentLoaded', () => {
+	const button = document.getElementById('btnsave');
 
-saveButton.addEventListener('click', (e) => {
-	e.preventDefault();
-	console.log('hola');
+	if (button) {
+		button.addEventListener('click', (event) => {
+			event.preventDefault(); // Evita que la página se recargue
+			alert('Hola, ¡el botón funciona!');
+		});
+	} else {
+		console.error('Botón no encontrado');
+	}
 });
