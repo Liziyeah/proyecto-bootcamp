@@ -38,11 +38,12 @@ h3{
     }*/
 
 .btn-VER{
-    border: 3px solid black;
+    border: 2px solid black;
     border-radius: 100px;
     padding: 0;
     margin: 0;
     width: 80px;
+    height: 28px;
     background-color: transparent;
     color: black;
     font-family: GothamBook; src: url(../fonts/GothamBook);
@@ -90,7 +91,9 @@ body{
     /*display: flex;*/
     justify-content: center;
     align-items: center;
-    background-image: url(/images/Forest_Texture_sm.jpg);
+    background-image: url(../images/menu-bg-01.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
     background-color: #555555;
     }
 
@@ -153,24 +156,24 @@ body{
     box-shadow: 10px 10px 14px 2px rgba(0,0,0,0.50);
     }
 
-    .caja-especial{
-        background: #3C1E6E;
-        border: 3px solid #ED1850;
-        border-radius: 15px;
-        box-shadow: 0 4px 5px #0000007a;
-        width: 250px;
-        height: 340px;
-        overflow: hidden;
-        position: relative;
-        text-align: center;
-        transition: transform 0.2s, box-shadow 0.2s;
-        -webkit-transition: 1s linear;
-        transition: 0.3s linear;
-        }
-    .caja-especial:hover{
-        -webkit-box-shadow: 10px 10px 14px 2px rgba(0,0,0,0.50);
-        box-shadow: 10px 10px 14px 2px rgba(0,0,0,0.50);
-        }
+.caja-especial{
+    background: #3C1E6E;
+    border: 3px solid #ED1850;
+    border-radius: 15px;
+    box-shadow: 0 4px 5px #0000007a;
+    width: 250px;
+    height: 340px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+    -webkit-transition: 1s linear;
+    transition: 0.3s linear;
+    }
+.caja-especial:hover{
+    -webkit-box-shadow: 10px 10px 14px 2px rgba(0,0,0,0.50);
+    box-shadow: 10px 10px 14px 2px rgba(0,0,0,0.50);
+    }
 
 .caja-bebidas{
     background: #3C1E6E;
